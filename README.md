@@ -18,3 +18,7 @@ UWaterloo ECE320 lab, a single-cylce piplining CPU implemented by Verilog
 # Credits
 
 The project structure heavily borrows the AWS EC2 FPGA HDK structure, [see here](https://github.com/aws/aws-fpga).
+
+•	Designed a five-stage processor using Verilog, capable of handling a series of instructions, ensuring accurate instruction execution and adherence to hardware design principles. 
+•	Implemented stage pipelining techniques to significantly enhance the processor's throughput, enabling the processor to fetch one instruction per clock cycle, thereby optimizing overall performance. 
+•	Incorporated mechanisms for bypassing and inserting stalls to effectively handle data hazards, ensuring smooth operation of the processor and minimizing the impact of instruction dependencies.
